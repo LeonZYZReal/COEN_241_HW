@@ -1,0 +1,91 @@
+QEMU cput test result
+max prime 20000
+iteration {1..5}
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          30.0030s
+    total number of events:              7243
+    total time taken by event execution: 29.9594
+    per-request statistics:
+         min:                                  3.84ms
+         avg:                                  4.14ms
+         max:                                 38.57ms
+         approx.  95 percentile:               4.58ms
+
+Threads fairness:
+    events (avg/stddev):           7243.0000/0.00
+    execution time (avg/stddev):   29.9594/0.00
+
+max prime 40000
+iteration {1..5}
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Maximum prime number checked in CPU test: 40000
+
+
+Test execution summary:
+    total time:                          30.0041s
+    total number of events:              2930
+    total time taken by event execution: 29.9798
+    per-request statistics:
+         min:                                  9.76ms
+         avg:                                 10.23ms
+         max:                                 16.70ms
+         approx.  95 percentile:              10.99ms
+
+Threads fairness:
+    events (avg/stddev):           2930.0000/0.00
+    execution time (avg/stddev):   29.9798/0.00
+
+max prime 60000
+iteration {1..5}
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Maximum prime number checked in CPU test: 60000
+
+
+Test execution summary:
+    total time:                          30.0027s
+    total number of events:              1711
+    total time taken by event execution: 29.9880
+    per-request statistics:
+         min:                                 16.88ms
+         avg:                                 17.53ms
+         max:                                 25.58ms
+         approx.  95 percentile:              18.58ms
+
+Threads fairness:
+    events (avg/stddev):           1711.0000/0.00
+    execution time (avg/stddev):   29.9880/0.00
+
