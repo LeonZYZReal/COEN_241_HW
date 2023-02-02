@@ -2,7 +2,7 @@
 opers='seqwr rndrw'
 dir=$(pwd)
 
-target=$dir/qemu_fileio_test_s2_res.txt
+target=$dir/docker_fileio_test_res.txt
 if [ ! -f $target ]
 then
 	touch $target

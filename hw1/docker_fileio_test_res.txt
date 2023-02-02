@@ -1,0 +1,367 @@
+QEMU cput test result
+------->>> Start <<<-------
+the file test mode seqwr
+iteration 1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Threads started!
+Done.
+
+Operations performed:  0 Read, 196608 Write, 128 Other = 196736 Total
+Read 0b  Written 3Gb  Total transferred 3Gb  (335.4Mb/sec)
+21465.83 Requests/sec executed
+
+Test execution summary:
+    total time:                          9.1591s
+    total number of events:              196608
+    total time taken by event execution: 142.3176
+    per-request statistics:
+         min:                                  0.01ms
+         avg:                                  0.72ms
+         max:                                178.43ms
+         approx.  95 percentile:               0.69ms
+
+Threads fairness:
+    events (avg/stddev):           12288.0000/988.52
+    execution time (avg/stddev):   8.8949/0.00
+
+iteration 2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Threads started!
+Done.
+
+Operations performed:  0 Read, 196608 Write, 128 Other = 196736 Total
+Read 0b  Written 3Gb  Total transferred 3Gb  (219.72Mb/sec)
+14062.17 Requests/sec executed
+
+Test execution summary:
+    total time:                          13.9813s
+    total number of events:              196608
+    total time taken by event execution: 217.0539
+    per-request statistics:
+         min:                                  0.01ms
+         avg:                                  1.10ms
+         max:                                707.44ms
+         approx.  95 percentile:               0.52ms
+
+Threads fairness:
+    events (avg/stddev):           12288.0000/875.14
+    execution time (avg/stddev):   13.5659/0.01
+
+iteration 3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Threads started!
+Done.
+
+Operations performed:  0 Read, 196608 Write, 128 Other = 196736 Total
+Read 0b  Written 3Gb  Total transferred 3Gb  (252.46Mb/sec)
+16157.42 Requests/sec executed
+
+Test execution summary:
+    total time:                          12.1683s
+    total number of events:              196608
+    total time taken by event execution: 189.9483
+    per-request statistics:
+         min:                                  0.01ms
+         avg:                                  0.97ms
+         max:                               1185.18ms
+         approx.  95 percentile:               0.59ms
+
+Threads fairness:
+    events (avg/stddev):           12288.0000/866.87
+    execution time (avg/stddev):   11.8718/0.01
+
+iteration 4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Threads started!
+Done.
+
+Operations performed:  0 Read, 196608 Write, 128 Other = 196736 Total
+Read 0b  Written 3Gb  Total transferred 3Gb  (564.44Mb/sec)
+36123.97 Requests/sec executed
+
+Test execution summary:
+    total time:                          5.4426s
+    total number of events:              196608
+    total time taken by event execution: 82.5154
+    per-request statistics:
+         min:                                  0.01ms
+         avg:                                  0.42ms
+         max:                                151.26ms
+         approx.  95 percentile:               0.32ms
+
+Threads fairness:
+    events (avg/stddev):           12288.0000/1320.80
+    execution time (avg/stddev):   5.1572/0.01
+
+iteration 5
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Threads started!
+Done.
+
+Operations performed:  0 Read, 196608 Write, 128 Other = 196736 Total
+Read 0b  Written 3Gb  Total transferred 3Gb  (791.99Mb/sec)
+50687.32 Requests/sec executed
+
+Test execution summary:
+    total time:                          3.8788s
+    total number of events:              196608
+    total time taken by event execution: 56.9800
+    per-request statistics:
+         min:                                  0.01ms
+         avg:                                  0.29ms
+         max:                                100.10ms
+         approx.  95 percentile:               0.30ms
+
+Threads fairness:
+    events (avg/stddev):           12288.0000/1082.97
+    execution time (avg/stddev):   3.5613/0.01
+
+------>>> Done <<<------
+------->>> Start <<<-------
+the file test mode rndrw
+iteration 1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 10000
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Done.
+
+Operations performed:  6036 Read, 4022 Write, 12800 Other = 22858 Total
+Read 94.312Mb  Written 62.844Mb  Total transferred 157.16Mb  (73.029Mb/sec)
+ 4673.83 Requests/sec executed
+
+Test execution summary:
+    total time:                          2.1520s
+    total number of events:              10058
+    total time taken by event execution: 0.4973
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.05ms
+         max:                                 15.03ms
+         approx.  95 percentile:               0.18ms
+
+Threads fairness:
+    events (avg/stddev):           628.6250/63.92
+    execution time (avg/stddev):   0.0311/0.01
+
+iteration 2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 10000
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Done.
+
+Operations performed:  6031 Read, 4019 Write, 12800 Other = 22850 Total
+Read 94.234Mb  Written 62.797Mb  Total transferred 157.03Mb  (66.619Mb/sec)
+ 4263.59 Requests/sec executed
+
+Test execution summary:
+    total time:                          2.3572s
+    total number of events:              10050
+    total time taken by event execution: 0.9056
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.09ms
+         max:                                 70.25ms
+         approx.  95 percentile:               0.20ms
+
+Threads fairness:
+    events (avg/stddev):           628.1250/62.60
+    execution time (avg/stddev):   0.0566/0.03
+
+iteration 3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 10000
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Done.
+
+Operations performed:  6036 Read, 4021 Write, 12801 Other = 22858 Total
+Read 94.312Mb  Written 62.828Mb  Total transferred 157.14Mb  (59.354Mb/sec)
+ 3798.64 Requests/sec executed
+
+Test execution summary:
+    total time:                          2.6475s
+    total number of events:              10057
+    total time taken by event execution: 0.8266
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.08ms
+         max:                                 38.56ms
+         approx.  95 percentile:               0.20ms
+
+Threads fairness:
+    events (avg/stddev):           628.5625/79.16
+    execution time (avg/stddev):   0.0517/0.02
+
+iteration 4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 10000
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Done.
+
+Operations performed:  6022 Read, 4013 Write, 12801 Other = 22836 Total
+Read 94.094Mb  Written 62.703Mb  Total transferred 156.8Mb  (73.797Mb/sec)
+ 4722.99 Requests/sec executed
+
+Test execution summary:
+    total time:                          2.1247s
+    total number of events:              10035
+    total time taken by event execution: 0.3911
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.04ms
+         max:                                  1.04ms
+         approx.  95 percentile:               0.18ms
+
+Threads fairness:
+    events (avg/stddev):           627.1875/61.78
+    execution time (avg/stddev):   0.0244/0.00
+
+iteration 5
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 24Mb each
+3Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 10000
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Done.
+
+Operations performed:  6032 Read, 4017 Write, 12802 Other = 22851 Total
+Read 94.25Mb  Written 62.766Mb  Total transferred 157.02Mb  (71.67Mb/sec)
+ 4586.91 Requests/sec executed
+
+Test execution summary:
+    total time:                          2.1908s
+    total number of events:              10049
+    total time taken by event execution: 0.4301
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.04ms
+         max:                                  3.15ms
+         approx.  95 percentile:               0.19ms
+
+Threads fairness:
+    events (avg/stddev):           628.0625/69.65
+    execution time (avg/stddev):   0.0269/0.00
+
+------>>> Done <<<------
