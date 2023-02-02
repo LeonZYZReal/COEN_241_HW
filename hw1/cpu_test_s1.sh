@@ -2,7 +2,7 @@
 threads='2 4 6'
 dir=$(pwd)
 
-target=$dir/qemu_cpu_test_res.txt
+target=$dir/qemu_cpu_test_s2_res.txt
 if [ ! -f $target ]
 then
 	touch $target
