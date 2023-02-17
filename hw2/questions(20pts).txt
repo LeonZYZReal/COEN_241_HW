@@ -1,0 +1,16 @@
+2. Questions(20 pts)
+1. What is the command to invoke the slack-request function (4 pts)?
+a. Via Curl: curl http://237.0.0.1:8080/function/slack-request
+b. Via faas-cli: faas-cli invoke slack-request
+2. What is the output you see when you invoke the slack-request function? (2 pts)
+{"text": "Serverless Message", "attachments": [{"fields": [{"short": true, "value": "Medium", "title": "Difficulty"}], "image_url": "https://avatars.githubusercontent.com/u/118139042?s=400&v=4", "author_name": "Yangzhang Zhou", "title": "====> COEN 241 <===="}, {"text": "COEN 241 is about cloud computing.", "title": "COEN 241 INFO"}, {"title": "Would you recommend COEN 241 to your friends?", "color": "#FF0000", "actions": [{"text": "Of Course!", "type": "button", "name": "recommend", "value": "recommend"}, {"text": "Most Definitely!", "type": "button", "name": "definitely", "value": "definitely"}], "callback_id": "response123", "fallback": "Would you recommend COEN 241 to your friends?", "attachment_type": "default"}]}
+3. What is the command to invoke the slack-interactive function? (4 pts)
+a. Via curl:  curl http://237.0.0.1:8080/function/slack-interactive
+b. Via faas-cli: faas-cli invoke slack-interactive
+4. What is the output you see when you invoke the slack-interactive function? (2 pts)
+{"attachments": [{"footer": "Slack Apps built on OpenFaas", "author_link": "https://github.com/LeonZYZReal/COEN_241_HW", "color": "#FF0000", "text": "Head over to COEN 241", "title": "COEN 241", "ts": 123456789, "author_name": "Yangzhang Zhou", "title_link": "https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/graduate/course-descriptions/", "image_url": "https://www.scu.edu/media/offices/umc/scu-brand-guidelines/visual-identity-amp-photography/visual-identity-toolkit/logos-amp-seals/Mission-Dont3.png", "response_type": "ephemeral", "replace_original": true, "footer_icon": "https://a.slack-edge.com/45901/marketing/img/_rebrand/meta/slack_hash_256.png", "pretext": "Cool! COEN 241 will be fun for you!", "fallback": "Required plain-text summary of the attachment.", "thumb_url": "https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/graduate/course-descriptions/", "author_icon": "https://avatars.githubusercontent.com/u/118139042?s=400&v=4"}]}
+5. How would you pass different arguments to the functions? (4 pts)
+For curl, for curl, using -d => curl -d ‘{“Hello World”}’ http://237.0.0.1:8080/function/slack-interactive
+For faas-cli, using '|' => echo “hello world” | faas-cli invoke slack-interactive
+6. How would you change the slack-interactive function to react to different inputs? (4 pts)
+I can use urllib to decode the string into a URL using the UTF-8 encoding. And json.load function to transform a valid JSON string.

@@ -1,0 +1,4 @@
+1. Figlet function deployed from the Open-Faas store, and echo the sentence "Hello, Faas, World"
+2. sudo journalctl -u faasd --lines 40 will out put logs to check if Faasd is running only first 40 lines
+3. After deloying figlet, slack-handler and slack-interactive, the Open-faas gateway will show these three functions since they are deployed in the cluster
+4. Using faas-cli invoke command to invoke the slack-request and slack-interactive, they will output the contents of the handlers
